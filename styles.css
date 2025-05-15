@@ -87,4 +87,8 @@ strong:only-of-type {
     padding: 5px;
     font-style: italic;
 }
-  
+
+p:first-of-type {
+  color: rgb(227, 3, 252);
+}
+
