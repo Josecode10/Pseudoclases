@@ -51,9 +51,9 @@ h1:target {
     margin: 25px 0px 25px 0px;
 }
 
-a:first-child {
+/* a:first-child {
     background-color: #808080;
-}
+} */
 
 form {
     text-align: left;
@@ -91,4 +91,19 @@ strong:only-of-type {
 p:first-of-type {
   color: rgb(227, 3, 252);
 }
+
+header {
+}
+
+.menu div {
+  background-color: #000000;
+  padding: 0px 50px ;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu div:hover {
+  background-color: rgb(3, 211, 252);
+}
+
 
