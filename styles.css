@@ -130,3 +130,28 @@ p::after {
   content: "\EB51";
   font-family: "remixicon";
 }
+
+section {
+  display: inline-block;
+  margin: 30px;
+}
+
+/* https://remixicon.com/ */
+
+.primer_parrafo::before {
+  content: "\EC51";
+  font-family: "remixicon";
+}
+
+.primer_parrafo::after {
+  content: "\EC52";
+  font-family: "remixicon";
+  display: inline;
+}
+
+.icono::before {
+  font-family: "remixicon";
+  content: "\EC7F";
+  place-content: content;
+}
+
