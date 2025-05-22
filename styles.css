@@ -59,9 +59,9 @@ form {
   text-align: left;
   width: 320px;
   height: 500px;
-  display: inline-block;
+  display: block;
   border: 1px solid white;
-  
+  margin: 30px auto;
 }
   
 input:invalid {
@@ -119,7 +119,9 @@ p::after {
 }
 
 .boton::after {
-  box-shadow: 10px 10px 0px 0px #DCDCDC;
-  margin: 10px;
-  display: inline-block;
+  box-shadow: 6px 3px 5px 10px #DCDCDC;
+  content: " ";
+  display: block;
+  z-index: -1;
+  position: relative;
 }
