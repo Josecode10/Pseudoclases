@@ -125,3 +125,8 @@ p::after {
   z-index: -1;
   position: relative;
 }
+
+.titulo_caja::before {
+  content: "\EB51";
+  font-family: "remixicon";
+}
