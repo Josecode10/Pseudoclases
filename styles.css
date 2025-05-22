@@ -1,0 +1,112 @@
+* {
+  text-decoration: none;
+}
+
+:root {
+  box-sizing: border-box;
+  font-weight: bold;
+  --color-principal: #39a900;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  background-color: #000000;
+  color: var(--color-principal);
+}
+
+.caja {
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: #DCDCDC;
+  --color-principal: #39a900;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+button {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+  color: var(--color-principal);
+  cursor: grab;
+}
+  
+h1:target {
+  color: #A52A2A;
+}
+  
+.enlaces {
+  color: var(--color-principal);
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 25px 0px 25px 0px;
+}
+  
+/* a:first-child {
+  background-color: #808080;
+  } */
+  
+form {
+  text-align: left;
+  width: 320px;
+  height: 500px;
+  display: inline-block;
+  border: 1px solid white;
+  
+}
+  
+input:invalid {
+  border: 2px solid red;
+}
+  
+form div {
+  margin: 20px;
+}
+  
+form button {
+  margin: 20px;
+}
+  
+#focus:focus {
+  border: 2px solid #DAA520;
+  background-color: #e0f7fa;
+  outline: none;
+}
+  
+strong:only-of-type {
+  border: 1px solid white;
+  padding: 5px;
+  font-style: italic;
+}
+  
+p:first-of-type {
+  color: rgb(227, 3, 252);
+}
+  
+.menu div {
+  background-color: #000000;
+  padding: 0px 50px ;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-principal);
+}
+
+.menu div:hover {
+  background-color: rgb(240, 244, 245);
+  color: #000000;
+}
+
+
